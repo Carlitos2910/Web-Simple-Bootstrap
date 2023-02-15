@@ -1,0 +1,13 @@
+#home{
+    transition: transform .2s;
+}
+
+#home img{
+    width: 50px;
+    border-radius: 20px;
+}
+
+#home:hover{
+    transform: scale(1.4);
+    transition: transform .2s;
+}
